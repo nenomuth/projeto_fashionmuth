@@ -1,0 +1,122 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* GLOBAL DIV */
+#container{
+    width: 1024px;
+    margin: 20px auto;
+}
+/* HEADER and MENU */
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+.logo-tipo{
+    margin: 5px 0 0 140px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0 ;
+    padding: 13px;
+}
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .5s linear;
+}
+.header-nav a:hover{
+    color: aliceblue;
+}
+/* PORTFOLIO */
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 40px;
+    color: #252525;
+}
+.portfolio p{
+    color: #425564;
+    line-height: 2em;
+}
+/* SECTION GALLERY / CARDS */
+.gallery{
+    padding: 50px 100px;
+}
+.gallery_card{
+    display:inline-block;
+    margin: 0 20px 0 0;
+}
+.gallery_title{
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.gallery_text{
+    text-align: center;
+    color: #9da3a8;
+}
+/* ABOUT */
+.about {
+    background-color: #003d52;
+    color: white;
+    padding: 100px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.about p{
+    line-height: 1.5;
+    width: 60%;
+}
+/* COONTACT / MAPS */
+.contact{
+    margin-top: 50px;
+}
+.contact address{
+    text-align: center;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #003d52;
+}
+.maps{
+    margin-top: 50px;
+    width: 100%;
+}
+.maps iframe{
+    width: 100%;
+}
+/* FOOTER */
+footer{
+    background: #162028;
+    color: #425564;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+}
