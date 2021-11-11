@@ -1,4 +1,4 @@
-## Projeto onde realizei a criação de uma landing page
+# Projeto onde realizei a criação de uma one page com rolagem longa.
 
 <br>
 - Utilizei ferramentas como HTML5 e CSS3.
